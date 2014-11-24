@@ -1,0 +1,107 @@
+libdockapp
+----------
+- Release new upstream (probably just trivial changes) and move to
+  windowmaker.org
+
+wmsystemtray
+------------
+- Mostly done, changes already in github
+
+wmbubble
+--------
+- compiler warnings
+- rewrite freebsd using stuff I learned from wmmemload
+- pull request to upstream
+- give a few days, see if they release a new version
+
+wmifinfo
+--------
+- actually patch Makefile instead of passing CPPFLAGS in debian/rules
+- add get-orig-source target
+- no response yet from upstream -- perhaps move to windowmaker.org?
+  (also try main email - ico@zevv.nl - perhaps never checks wmifinfo one?
+   appears active on github)
+
+wmclock
+-------
+- move to windowmaker.org (no response from upstream in ages)
+- currently an imake build system - switch to autotools
+- release new upstream version with debian patches
+
+wmcdplay
+--------
+- move to windowmaker.org
+- try to fix bug
+- modernize?
+
+wmitime
+-------
+- release new upstream
+
+wmrack
+------
+- already some stuff in github
+- IIRC, doesn't work on new kernels - can I fix this?
+- try to fix bugs
+
+wmtime
+------
+- release new upstream
+
+wmfrog
+------
+- patch Makefile for build flags, submit upstream
+
+wmppp.app
+---------
+- try to fix bugs (6!)
+
+wmbattery
+---------
+- already some stuff in github
+
+wmmemload
+---------
+- submit patches upstream, release new version
+- update get-orig-source target
+
+wmhdplop
+--------
+- try to fix bug
+- have I contacted upstream yet regarding patches?
+
+wmforecast
+----------
+- release new upstream
+
+wmshutdown
+----------
+- move to windowmaker.org
+
+wmbiff
+------
+- fix bugs (at the very least, the one I submitted! the other one with the
+  provided ruby script too)
+
+wmacpi
+------
+
+wmcoincoin
+----------
+
+wmifs
+-----
+
+wmcliphist
+----------
+
+wmbatppc?
+---------
+
+wmcalc!
+-------
+
+
+
+
+
