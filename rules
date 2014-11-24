@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+# basic debian/rules for windowmaker.org-hosted dockapp
+# replace wmfoo with package name
+
+%:
+	dh $@
+
+get-orig-source:
+	uscan --verbose --force-download --no-symlink
+	@if test -e ../wmfoo-*.download ; then \
+		rename -f -v "s/wmfoo-(.+)\.download/wmfoo_\1\.orig\.tar\.gz/" \
+			../wmfoo-*.download; \
+	fi
