@@ -1,17 +1,8 @@
-wmbubble
---------
-- compiler warnings
-- rewrite freebsd using stuff I learned from wmmemload
-- pull request to upstream
-- give a few days, see if they release a new version
-
 wmifinfo
 --------
-- actually patch Makefile instead of passing CPPFLAGS in debian/rules
-- add get-orig-source target
-- no response yet from upstream -- perhaps move to windowmaker.org?
-  (also try main email - ico@zevv.nl - perhaps never checks wmifinfo one?
-   appears active on github)
+- got the go-ahead to move to windowmaker.org from upstream
+- modernize Makefile
+- fix compiler warnings
 
 wmclock
 -------
@@ -100,3 +91,7 @@ libdockapp
 
 wmsystemtray
 ------------
+
+wmbubble
+--------
+
