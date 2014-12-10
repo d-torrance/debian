@@ -1,9 +1,3 @@
-wmifinfo
---------
-- got the go-ahead to move to windowmaker.org from upstream
-- modernize Makefile
-- fix compiler warnings
-
 wmclock
 -------
 - move to windowmaker.org (no response from upstream in ages)
@@ -94,4 +88,8 @@ wmsystemtray
 
 wmbubble
 --------
+
+wmifinfo
+--------
+- check freebsd support
 
