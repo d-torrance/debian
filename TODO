@@ -1,9 +1,3 @@
-wmclock
--------
-- move to windowmaker.org (no response from upstream in ages)
-- currently an imake build system - switch to autotools
-- release new upstream version with debian patches
-
 wmcdplay
 --------
 - move to windowmaker.org
@@ -93,3 +87,7 @@ wmifinfo
 --------
 - check freebsd support
 
+wmclock
+-------
+- submit clean_xpm patch upstream
+- remove redundant changelog heading
