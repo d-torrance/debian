@@ -1,13 +1,3 @@
-wmcdplay
---------
-- move to windowmaker.org
-- try to fix bug
-- modernize?
-
-wmitime
--------
-- release new upstream
-
 wmrack
 ------
 - already some stuff in github
@@ -65,9 +55,6 @@ wmifs
 wmcliphist
 ----------
 
-wmbatppc?
----------
-
 wmcalc!
 -------
 
@@ -91,3 +78,14 @@ wmclock
 -------
 - submit clean_xpm patch upstream
 - remove redundant changelog heading
+
+wmcdplay
+--------
+- modernize?
+
+wmitime
+-------
+
+wmbatppc
+---------
+- get cheap ibook?
