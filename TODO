@@ -1,13 +1,3 @@
-wmrack
-------
-- already some stuff in github
-- IIRC, doesn't work on new kernels - can I fix this?
-- try to fix bugs
-
-wmtime
-------
-- release new upstream
-
 wmfrog
 ------
 - patch Makefile for build flags, submit upstream
@@ -89,3 +79,10 @@ wmitime
 wmbatppc
 ---------
 - get cheap ibook?
+
+wmrack
+------
+
+wmtime
+------
+
