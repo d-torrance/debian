@@ -1,14 +1,20 @@
-wmfrog
+wmfire
 ------
-- patch Makefile for build flags, submit upstream
+- libgtop exits when checking netload in freebsd
+
+new dockapps
+------------
+wmfsm wmget wmgtemp wmload wmmount
+wmsensors wmsun wmsysmon wmtop wmusic
+
+wmbattery
+---------
+- submit manpage patch upstream
+- fix FTBFS on openSUSE
 
 wmppp.app
 ---------
 - try to fix bugs (6!)
-
-wmbattery
----------
-- already some stuff in github
 
 wmmemload
 ---------
@@ -85,4 +91,8 @@ wmrack
 
 wmtime
 ------
+
+wmfrog
+------
+
 
