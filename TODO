@@ -1,16 +1,20 @@
-wmfire
-------
-- libgtop exits when checking netload in freebsd
+wmget
+-----
+- contact upstream re: patches
 
-new dockapps
-------------
-wmfsm wmget wmgtemp wmload wmmount
-wmsensors wmsun wmsysmon wmtop wmusic
+wmppp, wmifs, wmtime
+--------------------
+- figure out gcc5 ftbfs (has to do with inline statements in list.*)
 
 wmbattery
 ---------
 - submit manpage patch upstream
 - fix FTBFS on openSUSE
+
+new dockapps
+------------
+wmgtemp wmload wmmount
+wmsensors wmsun wmsysmon wmtop wmusic
 
 wmppp.app
 ---------
@@ -50,9 +54,6 @@ wmifs
 
 wmcliphist
 ----------
-
-wmcalc!
--------
 
 libdockapp
 ----------
@@ -95,4 +96,5 @@ wmtime
 wmfrog
 ------
 
-
+wmfire
+------
