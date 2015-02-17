@@ -3,18 +3,19 @@ wmcube
 - contact upstream re: patches
 - ubuntu sync request
 
-wmget
------
-- contact upstream re: patches
-
-wmppp, wmifs, wmtime
---------------------
-- figure out gcc5 ftbfs (has to do with inline statements in list.*)
-
 wmbattery
 ---------
 - submit manpage patch upstream
 - fix FTBFS on openSUSE
+
+libwmgeneral
+------------
+- create library
+- test with all windowmaker.org dockapps using wmgeneral; apply patches as
+  needed
+- fix gcc5 FTBFS (inlines in list.*) (possibly replace list.* altogether?)
+- create example dockapp using all routines
+- create manpages
 
 new dockapps
 ------------
@@ -53,6 +54,9 @@ wmacpi
 
 wmcoincoin
 ----------
+- submitted merge request on upstream github for reproducible build issue on
+  2014/02/14 - if they apply it within a reasonable time, package this;
+  otherwise add to debian/patches
 
 wmifs
 -----
@@ -103,3 +107,14 @@ wmfrog
 
 wmfire
 ------
+
+wmcalc
+------
+
+wmfsm
+-----
+
+wmget
+-----
+- contacted upstream re: patches on 2015/02/15; if they don't respond within a
+  reasonable time, go ahead and add to windowmaker.org
