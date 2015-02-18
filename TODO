@@ -116,3 +116,5 @@ wmget
 
 wmcube
 ------
+- contacted upstream re: patches on 2015/02/18; if they don't respond within a
+  reasonable time, go ahead and add to windowmaker.org
