@@ -1,8 +1,3 @@
-wmbattery
----------
-- submit manpage patch upstream
-- fix FTBFS on openSUSE
-
 libwmgeneral
 ------------
 - create library
@@ -11,6 +6,7 @@ libwmgeneral
 - fix gcc5 FTBFS (inlines in list.*) (possibly replace list.* altogether?)
 - create example dockapp using all routines
 - create manpages
+- release a prototype package using new library (wmtime?)
 
 new dockapps
 ------------
@@ -116,5 +112,8 @@ wmget
 
 wmcube
 ------
-- contacted upstream re: patches on 2015/02/18; if they don't respond within a
-  reasonable time, go ahead and add to windowmaker.org
+
+wmbattery
+---------
+- submit manpage patch upstream (stop forgetting!)
+
