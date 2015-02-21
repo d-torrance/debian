@@ -1,0 +1,5 @@
+- lintian -IE --pedantic (both .dsc and .deb)
+- blhc
+- check-all-the-things
+- CC=clang dpkg-buildpackage
+- builds and runs on kfreebsd
