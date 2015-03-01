@@ -10,7 +10,7 @@ libwmgeneral
 
 new dockapps
 ------------
-wmgtemp wmload wmmount
+wmload wmmount
 wmsensors wmsun wmsysmon wmtop wmusic
 
 wmppp.app
@@ -117,3 +117,7 @@ wmbattery
 ---------
 - submit manpage patch upstream (stop forgetting!)
 
+wmgtemp
+-------
+- when packages clears NEW, contact upstream re: patches; if they don't respond
+  within a reasonable time, add to windowmaker.org
