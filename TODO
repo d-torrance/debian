@@ -43,12 +43,6 @@ wmbiff
 wmacpi
 ------
 
-wmcoincoin
-----------
-- submitted merge request on upstream github for reproducible build issue on
-  2014/02/14 - if they apply it within a reasonable time, package this;
-  otherwise add to debian/patches
-
 wmifs
 -----
 
@@ -121,3 +115,6 @@ wmgtemp
 -------
 - when packages clears NEW, contact upstream re: patches; if they don't respond
   within a reasonable time, add to windowmaker.org
+
+wmcoincoin
+----------
