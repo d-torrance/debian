@@ -110,6 +110,7 @@ wmcube
 wmbattery
 ---------
 - submit manpage patch upstream (stop forgetting!)
+- timer doesn't work on my new laptop - fix!
 
 wmgtemp
 -------
