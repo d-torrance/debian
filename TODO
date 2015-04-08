@@ -17,11 +17,6 @@ wmppp.app
 ---------
 - try to fix bugs (6!)
 
-wmmemload
----------
-- submit patches upstream, release new version
-- update get-orig-source target
-
 wmhdplop
 --------
 - try to fix bug
@@ -119,3 +114,6 @@ wmgtemp
 
 wmcoincoin
 ----------
+
+wmmemload
+---------
