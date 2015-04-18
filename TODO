@@ -1,25 +1,37 @@
-new dockapps
-------------
-wmmount wmsensors wmsun wmsysmon wmtop wmusic
-
 wmppp.app
 ---------
 - try to fix bugs (6!)
 - update wmgeneral library across all dockapps that use it
   (except wmbiff -- has diverged too much)
 
+wmmount
+-------
+- adopt removed package
+
 wmhdplop
 --------
 - try to fix bug
 - have I contacted upstream yet regarding patches?
 
+wmsensors
+---------
+- adopt removed package
+
 wmforecast
 ----------
 - release new upstream
 
+wmsun
+-----
+- adopt removed package
+
 wmshutdown
 ----------
 - move to windowmaker.org
+
+wmsysmon
+--------
+- adopt removed package
 
 wmbiff
 ------
@@ -27,8 +39,16 @@ wmbiff
   provided ruby script too)
 - try to sync wmgeneral library (release library as its own package?)
 
+wmtop
+-----
+- adopt removed package
+
 wmacpi
 ------
+
+wmusic
+------
+- adopt removed package
 
 wmifs
 -----
