@@ -1,13 +1,3 @@
-libwmgeneral
-------------
-- create library
-- test with all windowmaker.org dockapps using wmgeneral; apply patches as
-  needed
-- fix gcc5 FTBFS (inlines in list.*) (possibly replace list.* altogether?)
-- create example dockapp using all routines
-- create manpages
-- release a prototype package using new library (wmtime?)
-
 new dockapps
 ------------
 wmmount wmsensors wmsun wmsysmon wmtop wmusic
@@ -15,6 +5,8 @@ wmmount wmsensors wmsun wmsysmon wmtop wmusic
 wmppp.app
 ---------
 - try to fix bugs (6!)
+- update wmgeneral library across all dockapps that use it
+  (except wmbiff -- has diverged too much)
 
 wmhdplop
 --------
@@ -33,6 +25,7 @@ wmbiff
 ------
 - fix bugs (at the very least, the one I submitted! the other one with the
   provided ruby script too)
+- try to sync wmgeneral library (release library as its own package?)
 
 wmacpi
 ------
