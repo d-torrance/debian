@@ -10,8 +10,7 @@ libwmgeneral
 
 new dockapps
 ------------
-wmload wmmount
-wmsensors wmsun wmsysmon wmtop wmusic
+wmmount wmsensors wmsun wmsysmon wmtop wmusic
 
 wmppp.app
 ---------
@@ -117,3 +116,7 @@ wmcoincoin
 
 wmmemload
 ---------
+
+wmmount
+-------
+- submit patches upstream
