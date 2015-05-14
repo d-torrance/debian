@@ -62,13 +62,6 @@ libdockapp
 - Understand libtool stuff - can I clean anything up?
 - Document!  I would love to be able to go "man blah" for each function.
 
-wmsystemtray
-------------
-- submitted patch to upstream on 5/6/15 re: reproducible build - wait for
-  some reasonable period of time for a new release before adding patch
-  to the package
-  link: https://sourceforge.net/p/wmsystemtray/bugs/2/
-
 wmbubble
 --------
 
@@ -137,3 +130,8 @@ wmmemload
 wmload
 -------
 - submit patches upstream
+
+wmsystemtray
+------------
+- Currently, a git snapshot is packaged containing my reproducible build patch.
+  Will upstream release a new version?
