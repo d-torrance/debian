@@ -56,9 +56,6 @@ libdockapp
 - Understand libtool stuff - can I clean anything up?
 - Document!  I would love to be able to go "man blah" for each function.
 
-wmbubble
---------
-
 wmifinfo
 --------
 - check freebsd support
@@ -80,9 +77,6 @@ wmbatppc
 - get cheap ibook?
 
 wmrack
-------
-
-wmtime
 ------
 
 wmfrog
@@ -136,3 +130,13 @@ wmppp.app
 - improve copyright header
 - make sure source knows to look in location determined by Makefile
    for configuration files
+
+wmbubble
+--------
+
+wmtime
+------
+- wmgeneral dockapp - redo when libwmgeneral ready
+
+
+
