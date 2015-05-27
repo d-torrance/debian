@@ -106,8 +106,10 @@ wmbattery
 
 wmgtemp
 -------
-- when packages clears NEW, contact upstream re: patches; if they don't respond
-  within a reasonable time, add to windowmaker.org
+- rejected by ftp-masters for missing wmgeneral info in d/copyright and
+  COPYING file for GPL.  Contacted upstream on 5/7/15 with this info
+  and patches.  Upstream responded immediately promising to take a
+  look "next week", but no response yet (5/27/15).
 
 wmstickynotes
 -------------
