@@ -72,6 +72,7 @@ wmcdplay
 
 wmitime
 -------
+- wmgeneral dockapp - redo when libwmgeneral ready
 
 wmbatppc
 ---------
@@ -91,6 +92,7 @@ wmcalc
 
 wmfsm
 -----
+- wmgeneral dockapp - redo when libwmgeneral ready
 
 wmget
 -----
