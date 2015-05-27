@@ -1,3 +1,7 @@
+wmifs
+-----
+- Release with updated wmgeneral (fixes gcc5 bug)
+
 wmmount
 -------
 - adopt removed package
@@ -43,9 +47,6 @@ wmacpi
 wmusic
 ------
 - adopt removed package
-
-wmifs
------
 
 wmcliphist
 ----------
