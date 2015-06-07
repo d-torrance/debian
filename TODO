@@ -1,3 +1,4 @@
+
 wmifs
 -----
 - Release with updated wmgeneral (fixes gcc5 bug)
@@ -109,7 +110,8 @@ wmcube
 wmbattery
 ---------
 - submit manpage patch upstream (stop forgetting!)
-- timer doesn't work on my new laptop - fix!
+- update timer when unplugged, not only when % drops
+- install icons in /usr/share/wmbattery, not /usr/share/icons/wmbattery
 
 wmgtemp
 -------
