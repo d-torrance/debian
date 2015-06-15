@@ -126,13 +126,6 @@ wmsystemtray
 - Currently, a git snapshot is packaged containing my reproducible build patch.
   Will upstream release a new version?
 
-wmppp.app
----------
-- one remaining Debian bug (patch available -- I just forgot about it)
-- improve copyright header
-- make sure source knows to look in location determined by Makefile
-   for configuration files
-
 wmbubble
 --------
 
@@ -153,3 +146,10 @@ wmstickynotes
 
 wmshutdown
 ----------
+
+wmppp.app
+---------
+- one remaining Debian bug (patch available -- I just forgot about it)
+- improve copyright header
+- make sure source knows to look in location determined by Makefile
+   for configuration files
