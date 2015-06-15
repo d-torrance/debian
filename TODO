@@ -10,7 +10,7 @@ wmhdplop
 
 wmsensors
 ---------
-- adopt removed package
+- libsensors has changed signifcantly -- this will take some work!
 
 wmforecast
 ----------
