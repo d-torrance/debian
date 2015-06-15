@@ -5,7 +5,8 @@ wmmount
 wmhdplop
 --------
 - try to fix bug
-- have I contacted upstream yet regarding patches?
+  (did some investigating -- appears to be somewhere in imlib)
+- upstream contacted 5/29/15 re: patches
 
 wmsensors
 ---------
