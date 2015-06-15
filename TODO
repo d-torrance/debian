@@ -151,3 +151,7 @@ wmtime
 wmifs
 -----
 - wmgeneral dockapp - redo when libwmgeneral ready
+
+memtailor
+---------
+- Ask if M2 is new upstream?
