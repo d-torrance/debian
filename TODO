@@ -19,7 +19,7 @@ wmforecast
 
 wmsun
 -----
-- adopt removed package
+- Released new upstream version on windowmaker.org; almost done packaging.
 
 wmsysmon
 --------
