@@ -80,10 +80,6 @@ wmrack
 wmfrog
 ------
 
-wmfire
-------
-- contact upstream re: patches after clearing NEW
-
 git-big-picture
 ---------------
 
@@ -128,6 +124,10 @@ wmmemload
 wmload
 -------
 - submit patches upstream
+
+wmfire
+------
+- sent email to upstream re: patches on 6/15/15
 
 wmsystemtray
 ------------
