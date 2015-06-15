@@ -111,10 +111,6 @@ wmgtemp
   and patches.  Upstream responded immediately promising to take a
   look "next week", but no response yet (5/27/15).
 
-wmstickynotes
--------------
-- sent upstream an email re: patches on 5/27/15
-
 wmcoincoin
 ----------
 
@@ -155,3 +151,6 @@ wmifs
 memtailor
 ---------
 - Ask if M2 is new upstream?
+
+wmstickynotes
+-------------
