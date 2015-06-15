@@ -19,10 +19,6 @@ wmsun
 -----
 - adopt removed package
 
-wmshutdown
-----------
-- move to windowmaker.org
-
 wmsysmon
 --------
 - adopt removed package
@@ -154,3 +150,6 @@ memtailor
 
 wmstickynotes
 -------------
+
+wmshutdown
+----------
