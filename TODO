@@ -1,8 +1,3 @@
-
-wmifs
------
-- Release with updated wmgeneral (fixes gcc5 bug)
-
 wmmount
 -------
 - adopt removed package
@@ -153,5 +148,6 @@ wmtime
 ------
 - wmgeneral dockapp - redo when libwmgeneral ready
 
-
-
+wmifs
+-----
+- wmgeneral dockapp - redo when libwmgeneral ready
