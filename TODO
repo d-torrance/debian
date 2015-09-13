@@ -2,126 +2,43 @@ wmmount
 -------
 - Lots of work done; most recent commits sitting on gloria.
 
-wmhdplop
---------
-- try to fix bug
-  (did some investigating -- appears to be somewhere in imlib)
-- upstream contacted 5/29/15 re: patches
-
 wmsensors
 ---------
 - libsensors has changed signifcantly -- this will take some work!
 
-wmforecast
+wmusic
+------
+- xmms dead; switch to MPRIS (controls several players)
+
+libdockapp
 ----------
-- release new upstream
-  (lots of work I believe was on toshiba, backed up on gloria)
+- Understand libtool stuff - can I clean anything up?
+- Document!  I would love to be able to go "man blah" for each function.
 
-wmsun
+wmfsm
 -----
-- Released new upstream version on windowmaker.org; almost done packaging.
-
-wmsysmon
---------
-- adopt removed package
 
 wmbiff
 ------
 - fix bugs (at the very least, the one I submitted! the other one with the
   provided ruby script too)
-- try to sync wmgeneral library (release library as its own package?)
+- try to sync wmgeneral library
 
-wmtop
------
-- adopt removed package
-
-wmacpi
+wmcalc
 ------
-
-wmusic
-------
-- adopt removed package
-
-wmcliphist
-----------
-
-libdockapp
-----------
-- Send patch upstream
-- Understand libtool stuff - can I clean anything up?
-- Document!  I would love to be able to go "man blah" for each function.
-
-wmifinfo
---------
-- check freebsd support
 
 wmclock
 -------
 - submit clean_xpm patch upstream
 - remove redundant changelog heading
 
-wmcdplay
---------
-- modernize?
-
-wmitime
--------
-- wmgeneral dockapp - redo when libwmgeneral ready
-
-wmbatppc
----------
-- get cheap ibook?
-
-wmrack
-------
-
-wmfrog
-------
-
-git-big-picture
----------------
-
-wmcalc
-------
-
-wmfsm
------
-- wmgeneral dockapp - redo when libwmgeneral ready
-
-wmget
------
-- contacted upstream re: patches on 2015/02/15; if they don't respond within a
-  reasonable time, go ahead and add to windowmaker.org
-
-wmcube
-------
-
-wmbattery
----------
-- submit manpage patch upstream (stop forgetting!)
-- update timer when unplugged, not only when % drops
-- install icons in /usr/share/wmbattery, not /usr/share/icons/wmbattery
-
-wmgtemp
--------
-- rejected by ftp-masters for missing wmgeneral info in d/copyright and
-  COPYING file for GPL.  Contacted upstream on 5/7/15 with this info
-  and patches.  Upstream responded immediately promising to take a
-  look "next week", but no response yet (5/27/15).
-
-wmcoincoin
+wmforecast
 ----------
-
-wmmemload
----------
+- release new upstream
+  (lots of work I believe was on toshiba, backed up on gloria)
 
 wmload
 -------
-- submit patches upstream
-
-wmfire
-------
-- sent email to upstream re: patches on 6/15/15
 
 wmsystemtray
 ------------
@@ -131,23 +48,28 @@ wmsystemtray
 wmbubble
 --------
 
-wmtime
+wmcdplay
+--------
+- modernize?
+
+wmifinfo
+--------
+- check freebsd support
+
+wmrack
 ------
-- wmgeneral dockapp - redo when libwmgeneral ready
+
+wmcoincoin
+----------
+
+wmfrog
+------
 
 wmifs
 -----
-- wmgeneral dockapp - redo when libwmgeneral ready
 
-memtailor
----------
-- Ask if M2 is new upstream?
-
-wmstickynotes
--------------
-
-wmshutdown
-----------
+wmitime
+-------
 
 wmppp.app
 ---------
@@ -155,3 +77,92 @@ wmppp.app
 - improve copyright header
 - make sure source knows to look in location determined by Makefile
    for configuration files
+
+wmsun
+-----
+
+memtailor
+---------
+- Switch to M2 upstream
+
+mathicgb
+--------
+- Build errors on powerpc, etc.
+- Switch to M2 upstream
+
+wmcliphist
+----------
+
+wmget
+-----
+- contacted upstream re: patches on 2015/02/15; if they don't respond within a
+  reasonable time, go ahead and add to windowmaker.org
+
+wmfire
+------
+- sent email to upstream re: patches on 6/15/15
+
+frobby
+------
+- New upstream?
+
+geneagrapher
+------------
+- python 3?
+
+wmhdplop
+--------
+- try to fix bug
+  (did some investigating -- appears to be somewhere in imlib)
+- upstream contacted 5/29/15 re: patches
+
+wmsysmon
+--------
+- Fix 2 bugs - some patches already merged upstream
+
+wmtop
+-----
+- Received permission from upstream to host on windowmaker.org
+- Update -- lots of bugs with modern kernel
+
+wmcube
+------
+- Contact upstream re: wmgeneral/list.* bug; never responded to BTS
+- Encourage upstream to switch to libdockapp
+
+wmmemload
+---------
+
+wmshutdown
+----------
+
+wmstickynotes
+-------------
+
+wmgtemp
+-------
+- Contacted upstream on 5/7/15 asking to include COPYING and apply
+  and patches.  Upstream responded immediately promising to take a
+  look "next week", but no response yet (5/27/15).
+
+mathic
+------
+- Switch to M2 upstream
+
+wmacpi
+------
+
+wmbatppc
+---------
+- get cheap ibook?
+
+wmbattery
+---------
+- update timer when unplugged, not only when % drops
+- install icons in /usr/share/wmbattery, not /usr/share/icons/wmbattery
+
+wmtime
+------
+
+git-big-picture
+---------------
