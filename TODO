@@ -27,11 +27,6 @@ wmbiff
 wmcalc
 ------
 
-wmclock
--------
-- submit clean_xpm patch upstream
-- remove redundant changelog heading
-
 wmforecast
 ----------
 - release new upstream
@@ -166,3 +161,6 @@ wmtime
 
 git-big-picture
 ---------------
+
+wmclock
+-------
