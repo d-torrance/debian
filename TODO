@@ -10,11 +10,6 @@ wmusic
 ------
 - xmms dead; switch to MPRIS (controls several players)
 
-libdockapp
-----------
-- Understand libtool stuff - can I clean anything up?
-- Document!  I would love to be able to go "man blah" for each function.
-
 wmfsm
 -----
 
@@ -164,3 +159,9 @@ git-big-picture
 
 wmclock
 -------
+
+libdockapp
+----------
+- Understand libtool stuff - can I clean anything up?
+- Document!  I would love to be able to go "man blah" for each function.
+- Submit patches upstream
