@@ -2,7 +2,7 @@
 PACKAGE=$1
 cd ~/src/$PACKAGE/$PACKAGE
 dpkg-source -b .
-VERSION=`dpkg-parsechangelog -S Version`
+VERSION=`dpkg-parsechangelog -S Version | sed 's/.\://'`
 FIRSTLETTER=`echo $PACKAGE | cut -c1`
 cd ~/tmp
 dget http://incoming.debian.org/debian-buildd/pool/main/${FIRSTLETTER}/${PACKAGE}/${PACKAGE}_${VERSION}.dsc
