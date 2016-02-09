@@ -1,3 +1,10 @@
+current goals for all packages
+------------------------------
+- bump to standards-version 3.9.7
+- Vcs-* should be the same, use https
+- enable all hardening flags
+- switch windowmaker.org dockapps to autotools if not already using it
+
 wmmount
 -------
 - Lots of work done; most recent commits sitting on gloria.
@@ -83,11 +90,6 @@ mathicgb
 wmcliphist
 ----------
 
-wmget
------
-- contacted upstream re: patches on 2015/02/15; if they don't respond within a
-  reasonable time, go ahead and add to windowmaker.org
-
 wmfire
 ------
 - sent email to upstream re: patches on 6/15/15
@@ -109,11 +111,6 @@ wmhdplop
 wmsysmon
 --------
 - Fix 2 bugs - some patches already merged upstream
-
-wmtop
------
-- Received permission from upstream to host on windowmaker.org
-- Update -- lots of bugs with modern kernel
 
 wmcube
 ------
@@ -165,3 +162,14 @@ libdockapp
 - Understand libtool stuff - can I clean anything up?
 - Document!  I would love to be able to go "man blah" for each function.
 - Submit patches upstream
+
+wmget
+-----
+
+wmtop
+-----
+- Do I *need* to include/link xext and xpm? dpkg-shlibdeps says I don't.
+- Are we sure this is ok with modern kernels?  Do some more testing.  Make
+  sure percentages match up with actual top.
+- LFS support
+- typo in manpage (specfied)
