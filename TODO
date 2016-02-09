@@ -161,6 +161,18 @@ libdockapp
 wmforecast
 ----------
 
+wmdiskmon
+---------
+- sent note to upstream re: patches on 2016/02/08
+
+wmtv
+----
+- See if I can get it to work with my old Hauppage card.  :)
+
+wmpinboard
+----------
+- 7(!) bugs
+
 wmget
 -----
 
