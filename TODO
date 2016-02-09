@@ -29,11 +29,6 @@ wmbiff
 wmcalc
 ------
 
-wmforecast
-----------
-- release new upstream
-  (lots of work I believe was on toshiba, backed up on gloria)
-
 wmload
 -------
 
@@ -162,6 +157,9 @@ libdockapp
 - Understand libtool stuff - can I clean anything up?
 - Document!  I would love to be able to go "man blah" for each function.
 - Submit patches upstream
+
+wmforecast
+----------
 
 wmget
 -----
