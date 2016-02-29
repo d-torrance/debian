@@ -109,8 +109,8 @@ wmsysmon
 
 wmcube
 ------
-- Contact upstream re: wmgeneral/list.* bug; never responded to BTS
-- Encourage upstream to switch to libdockapp
+- New upstream release (sent in email -- wait for upload to homepage)
+- Upstream also maintains wminfo and wmsunmoon -- package these?
 
 wmmemload
 ---------
