@@ -1,4 +1,2 @@
-# basic debian/watch for windowmaker.org-hosted dockapp
-# replace wmfoo with package name
-version=3
-http://windowmaker.org/dockapps/?name=wmfoo \?download=wmfoo-(.+).tar.gz
+version=4
+http://www.dockapps.net/@PACKAGE@ /download/@PACKAGE@@ANY_VERSION@@ARCHIVE_EXT@
