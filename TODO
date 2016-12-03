@@ -1,6 +1,6 @@
 current goals for all packages
 ------------------------------
-- bump to standards-version 3.9.7
+- bump to standards-version 3.9.8 (in particular, add .desktop files)
 - Vcs-* should be the same, use https
 - enable all hardening flags
 - switch windowmaker.org dockapps to autotools if not already using it
@@ -25,6 +25,8 @@ wmbiff
 - fix bugs (at the very least, the one I submitted! the other one with the
   provided ruby script too)
 - try to sync wmgeneral library
+- too many _GNU_SOURCE #defines
+- fix tests
 
 wmcalc
 ------
@@ -101,7 +103,6 @@ wmhdplop
 --------
 - try to fix bug
   (did some investigating -- appears to be somewhere in imlib)
-- upstream contacted 5/29/15 re: patches
 
 wmsysmon
 --------
