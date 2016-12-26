@@ -157,7 +157,8 @@ libdockapp
 ----------
 - Understand libtool stuff - can I clean anything up?
 - Document!  I would love to be able to go "man blah" for each function.
-- Submit patches upstream
+- Merge in wmgeneral/xutils/ssato's libdockapp.
+  - In particular, more specific functions, which old functions can call.
 
 wmforecast
 ----------
@@ -184,3 +185,9 @@ wmtop
   sure percentages match up with actual top.
 - LFS support
 - typo in manpage (specfied)
+
+wmlongrun
+---------
+- Apply debian ghz patch
+- Add "foreign" option so INSTALL isn't overwritten
+- Currently using ssato's libdockapp.  Port once this is merged.
