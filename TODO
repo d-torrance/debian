@@ -122,13 +122,6 @@ wmshutdown
 wmstickynotes
 -------------
 
-wmgtemp
--------
-- Contacted upstream on 5/7/15 asking to include COPYING and apply
-  and patches.  Upstream responded immediately promising to take a
-  look "next week", but no response yet (5/27/15).
-- New email sent 1/31/17 re: #853707.
-
 mathic
 ------
 - Switch to M2 upstream
@@ -192,3 +185,9 @@ wmlongrun
 - Apply debian ghz patch
 - Add "foreign" option so INSTALL isn't overwritten
 - Currently using ssato's libdockapp.  Port once this is merged.
+
+wmgtemp
+-------
+- Add desktop file from Debian package.
+- Take a look at doc files, e.g., INSTALL -- do they need updates
+  after switch to autotools?
