@@ -1,7 +1,10 @@
 current goals for all packages
 ------------------------------
-- bump to standards-version 3.9.8 (in particular, add .desktop files)
+- bump to standards-version 4.1.1
+- add .desktop file
 - Vcs-* should be the same, use https
+- https in d/copyright
+- priority optional
 - enable all hardening flags
 - switch windowmaker.org dockapps to autotools if not already using it
 
@@ -191,3 +194,18 @@ wmgtemp
 - Add desktop file from Debian package.
 - Take a look at doc files, e.g., INSTALL -- do they need updates
   after switch to autotools?
+
+wmresssel
+---------
+- Apply debian patches (multiscreen support, manpage section)
+- are libxpm and xext necessary?
+
+wmmixer
+-------
+- Add home.wmmixer example file to tarball.
+
+wmix
+----
+- Incorporate changes from upstream's original v3.2
+- Incorporate Debian patch
+- Fix other Debian bugs
